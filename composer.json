@@ -1,6 +1,6 @@
 {
     "name": "onzra/ExampleProject",
     "require": {
-
+        "league/route": "1.1.*"
     }
 }
