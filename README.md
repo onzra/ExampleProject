@@ -4,7 +4,6 @@ A web app for storing recipes. Provides a friendly UI for easily switching betwe
 
 ## Sample Features
 
-- #1234 - Basic controllers and routing
 - #1235 - Templating system
 - #1236 - Layout framework
 - #1237 - SQLite lib

@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7d1e80bc50e892549c6de2e985132f48",
+    "hash": "b8d37c9cd2a98d1c9b5bd42b8e228378",
     "packages": [
         {
             "name": "league/container",

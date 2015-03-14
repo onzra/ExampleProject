@@ -8,14 +8,10 @@ use Symfony\Component\HttpFoundation\Response;
 
 $router = new \League\Route\RouteCollection();
 
-$router->addRoute('GET', '/', function(Request $request, Response $response) {
-    $response->setContent('Home.');
-    return $response;
-});
-$router->addRoute('GET', '/recipes/index', function(Request $request, Response $response) {
-    $response->setContent('Recipes index.');
-    return $response;
-});
+$router->addRoute('GET', '/', 'Example\Controller\RecipesController::index');
+$router->addRoute('GET', '/view/{id}', 'Example\Controller\RecipesController::view');
+$router->addRoute('GET', '/add', 'Example\Controller\RecipesController::add');
+$router->addRoute('GET', '/edit/{id}', 'Example\Controller\RecipesController::edit');
 
 $dispatcher = $router->getDispatcher();
 $request = Request::createFromGlobals();

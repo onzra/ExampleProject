@@ -1,5 +1,10 @@
 {
     "name": "onzra/ExampleProject",
+    "autoload": {
+        "psr-4":{
+            "": "lib/"
+        }
+    },
     "require": {
         "league/route": "1.1.*"
     }
