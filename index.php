@@ -12,6 +12,10 @@ $router->addRoute('GET', '/', function(Request $request, Response $response) {
     $response->setContent('Home.');
     return $response;
 });
+$router->addRoute('GET', '/recipes/index', function(Request $request, Response $response) {
+    $response->setContent('Recipes index.');
+    return $response;
+});
 
 $dispatcher = $router->getDispatcher();
 $request = Request::createFromGlobals();
