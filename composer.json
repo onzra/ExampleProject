@@ -6,6 +6,7 @@
         }
     },
     "require": {
-        "league/route": "1.1.*"
+        "league/route": "1.1.*",
+        "league/plates": "3.1.*"
     }
 }
